@@ -7,9 +7,6 @@ import shutil
 
 def switch(username,password):
 
-
-    
-
     executable_path= {'executable_path':r'C:\temp\AltiboxApp\chromedriver'}
 
     options = webdriver.ChromeOptions()
