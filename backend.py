@@ -43,7 +43,7 @@ def switch(username,password):
 
     options.add_argument("--disable-notifications")
 
-    browser = Browser('chrome', **executable_path, headless = True, options = options)
+    browser = Browser('chrome', **executable_path, headless = False, options = options)
 
     browser.visit("https://www.altibox.no/minesider/")
 
