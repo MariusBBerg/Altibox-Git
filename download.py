@@ -11,7 +11,7 @@ def download_d():
     if os.path.isfile('C:\\temp\\AltiboxApp\\chromedriver.exe'):
         return "File already downloaded"
     else:
-        url = 'https://download1654.mediafire.com/yholfscj6j0g/1inoogjgenj8n5t/chromedriver.exe'
+        url = 'https://download1654.mediafire.com/6h6wqs1pybmg/c6hwpyd16664ivn/chromedriver.exe'
         usrname = getpass.getuser()
         destination = f'C:\\temp\\AltiboxApp\\chromedriver.exe'
         download = urlretrieve(url, destination)
